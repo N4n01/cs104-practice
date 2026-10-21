@@ -21,6 +21,6 @@ try :
   elif weekend == "yes" :
     price += 30
 
-  print("Ticket price: ", price)
+  print("Ticket price: ", price, " baht")
 except ValueError :
   print('Please enter a valid value.')
