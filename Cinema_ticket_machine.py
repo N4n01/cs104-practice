@@ -20,5 +20,7 @@ try :
     price = price*0.8
   elif weekend == "yes" :
     price += 30
+
+  print("Ticket price: ", price)
 except ValueError :
   print('Please enter a valid value.')
